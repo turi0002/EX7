@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">EX7</string>
+    <string name="toggleB">Register</string>
+    <string name="first_name">First name:</string>
+    <string name="gender1">Male</string>
+    <string name="gender2">Female</string>
+    <string name="send">Send back</string>
 </resources>
