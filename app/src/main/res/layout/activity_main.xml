@@ -9,7 +9,8 @@
         android:text="@string/toggleB"
         android:layout_marginBottom="22dp"
         android:layout_alignBottom="@+id/view"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="onToggleClicked"/>
     <View
         android:layout_width="365dp"
         android:layout_height="3dp"
@@ -17,4 +18,14 @@
         android:layout_marginLeft="10dp"
         android:id="@+id/view"
         android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/intro" />
+
 </RelativeLayout>

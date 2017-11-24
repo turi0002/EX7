@@ -5,4 +5,5 @@
     <string name="gender1">Male</string>
     <string name="gender2">Female</string>
     <string name="send">Send back</string>
+    <string name="intro">Hello, this app will demostarte the \n transfer to second activity and \n sending results back to this one.\n press the button to switch</string>
 </resources>

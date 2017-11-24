@@ -14,13 +14,12 @@
         android:layout_marginTop="13dp" />
 
     <EditText
-        android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name"
-
+        android:id="@id/efName"
         android:layout_toEndOf="@+id/textView" />
 
     <TextView
@@ -32,24 +31,25 @@
         android:layout_marginStart="20dp" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/elName2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name"
         android:layout_alignBottom="@+id/textView3"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        />
 
     <RadioGroup
-        android:id="@+id/radioGroup"
+        android:id="@+id/rGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
         android:orientation="horizontal">
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/rb1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignTop="@+id/radioGroup"
@@ -58,7 +58,7 @@
             android:text="@string/gender1" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/rb2"
             android:layout_width="133dp"
             android:layout_height="wrap_content"
             android:text="@string/gender2" />
@@ -69,10 +69,11 @@
         android:id="@+id/button2"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="86dp"
+        android:layout_marginTop="119dp"
         android:text="@string/send"
         android:background="#40d0d0"
-        android:layout_below="@+id/radioGroup"
+        android:onClick="returnToMain"
+        android:layout_below="@+id/rGroup"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

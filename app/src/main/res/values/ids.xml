@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="efName" type="id"/>
+    <item name="elName" type="id"/>
+    <item name="genderId" type="id"/>
+    <item name="rGroup" type="id"/>
+    <item name="rl" type="id"/>
+    <item name="introd" type="id"/>
+    <item name="reg" type="id"/>
+    <item name="rb1" type="id"/>
+    <item name="rb2" type="id"/>
+    <item name="in" type="id"/>
+</resources>
