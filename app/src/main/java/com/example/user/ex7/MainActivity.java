@@ -38,10 +38,10 @@ public class MainActivity extends Activity {
 
             }
             else{
-                intro.setText("welcome back Miss." +fName+", "+lName);
+
             }
             Button button = (Button)findViewById(R.id.reg) ;
-            button.setText("again...");
+
         }
     }
 }
